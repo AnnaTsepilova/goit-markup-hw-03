@@ -127,8 +127,6 @@ img {
 }
 
 .page-logo {
-  padding-top: 24px;
-  padding-bottom: 24px;
   margin-right: 76px;
   font-family: var(--secondary-font);
   font-weight: 800;
@@ -137,6 +135,11 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--primary-brand-color);
+}
+
+.page-logo__link--header {
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .page-logo__header {
@@ -318,7 +321,7 @@ img {
   color: var(--light-cloud-color);
 }
 
-.page-logo__link {
+.page-logo__link--footer {
   display: inline-block;
   margin-bottom: 16px;
 }
